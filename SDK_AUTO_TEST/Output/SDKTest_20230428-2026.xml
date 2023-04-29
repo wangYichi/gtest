@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="5" disabled="0" errors="0" timestamp="2023-04-28T20:26:29" time="2.074" name="AllTests">
+  <testsuite name="InitializationTest" tests="5" failures="5" disabled="0" errors="0" time="2.073">
+    <testcase name="HRSSConnect" status="run" time="2.064" classname="InitializationTest">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:14&#x0A;Value of: SdkFunction::GetInstance()-&gt;OpenConnection()&#x0A;  Actual: false&#x0A;Expected: true" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:14
+Value of: SdkFunction::GetInstance()->OpenConnection()
+  Actual: false
+Expected: true]]></failure>
+    </testcase>
+    <testcase name="CheckHrssExtMode" status="run" time="0.003" classname="InitializationTest">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:18&#x0A;      Expected: SdkFunction::GetInstance()-&gt;GetHrssMode()&#x0A;      Which is: 110&#x0A;To be equal to: SdkFunction::kEXT&#x0A;      Which is: 3" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:18
+      Expected: SdkFunction::GetInstance()->GetHrssMode()
+      Which is: 110
+To be equal to: SdkFunction::kEXT
+      Which is: 3]]></failure>
+    </testcase>
+    <testcase name="ClearAlarm" status="run" time="0" classname="InitializationTest">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:22&#x0A;      Expected: SdkFunction::GetInstance()-&gt;ClearAlarm()&#x0A;      Which is: 1&#x0A;To be equal to: 0" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:22
+      Expected: SdkFunction::GetInstance()->ClearAlarm()
+      Which is: 1
+To be equal to: 0]]></failure>
+    </testcase>
+    <testcase name="GetHrssVersion" status="run" time="0.001" classname="InitializationTest">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:26&#x0A;Value of: !SdkFunction::GetInstance()-&gt;GetHrssVersion()&#x0A;  Actual: false&#x0A;Expected: true" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:26
+Value of: !SdkFunction::GetInstance()->GetHrssVersion()
+  Actual: false
+Expected: true]]></failure>
+    </testcase>
+    <testcase name="GetRobotType" status="run" time="0.001" classname="InitializationTest">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:30&#x0A;      Expected: SdkFunction::GetInstance()-&gt;GetRobotType()&#x0A;      Which is: 110&#x0A;To be equal to: 0" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\initializationtest.cpp:30
+      Expected: SdkFunction::GetInstance()->GetRobotType()
+      Which is: 110
+To be equal to: 0]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

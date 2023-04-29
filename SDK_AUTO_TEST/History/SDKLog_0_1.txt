@@ -1,0 +1,15 @@
+2023-4-28_18:58:16 set_mode 0  0 
+hdl 0 cmd 0 rlt 4702 alv 0 alm 0 msts 2 op 0 t1/2 0 pl 0.00 ov 10 fo 0000 coord 0 sz 31
+hdl 0 cmd 0 rlt 4702 alv 0 alm 0 msts 1 op 0 t1/2 0 pl 0.00 ov 10 fo 0000 coord 1 sz 37
+hdl 0 cmd 0 rlt 4702 alv 0 alm 0 msts 1 op 0 t1/2 0 pl 0.00 ov 10 fo 0000 coord 0 sz 31
+Command 1450 cleanAlarm Err code 300
+2023-4-28_18:58:16 cleanAlarm  300 
+2023-4-28_18:58:16 hdl 0 cmd 1450 rlt 300 len 0 
+Handle 0 HRSS Closed !
+
+Network disconnected !SDK handle fun close connection !
+ShutdownAndColse socket= 0107E914
+ShutdownAndColse socket= 0107E918
+ShutdownAndColse socket= 0107E91C
+2023-4-28_18:58:17 Close connection !
+127.0.0.1 0

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="TestSelector.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SQA">
+      <UniqueIdentifier>{8bd4ba24-0911-4b81-813d-451e37f6b400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{e5174b18-549e-4852-8682-2bef1b7fa867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{85d3c737-5b21-45e3-9d8e-f7d2c618a995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{0b05b9a4-0d3d-4a6e-9d9a-9745aa945745}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InitializationTest.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SdkFunction.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.h">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="T4815.cpp">
+      <Filter>SQA</Filter>
+    </ClCompile>
+    <ClCompile Include="T4884.cpp">
+      <Filter>SQA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SdkFunction.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="HRSDK.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="UNIT_INC.h" />
+    <ClInclude Include="ScriptTester.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" failures="2" disabled="0" errors="0" timestamp="2023-04-29T14:50:46" time="0.005" name="AllTests">
+  <testsuite name="TEST_T4815" tests="3" failures="2" disabled="0" errors="0" time="0.004">
+    <testcase name="JogHome" status="run" time="0" classname="TEST_T4815" />
+    <testcase name="SetHrssHrb" status="run" time="0.001" classname="TEST_T4815">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\t4815.cpp:24&#x0A;      Expected: SdkFunction::GetInstance()-&gt;SetHrssHrb()&#x0A;      Which is: 200&#x0A;To be equal to: 0" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\t4815.cpp:24
+      Expected: SdkFunction::GetInstance()->SetHrssHrb()
+      Which is: 200
+To be equal to: 0]]></failure>
+    </testcase>
+    <testcase name="StartTest" status="run" time="0.001" classname="TEST_T4815">
+      <failure message="c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\t4815.cpp:30&#x0A;      Expected: task-&gt;GetResult()&#x0A;      Which is: true&#x0A;To be equal to: 0" type=""><![CDATA[c:\users\user\source\repos\sdk_auto_test\sdk_auto_test\t4815.cpp:30
+      Expected: task->GetResult()
+      Which is: true
+To be equal to: 0]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
